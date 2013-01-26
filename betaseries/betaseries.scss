@@ -1,0 +1,51 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #3b8dd0;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$title-show-color:  rgba(255, 255, 255, 1);
+$episode-color:     rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget-betaseries styles
+// ----------------------------------------------------------------------------
+.widget-betaseries {
+
+  background-color: $background-color;
+  vertical-align: top;
+
+  .title {
+    color: $title-color;
+  }
+
+  .subtitle {
+    font-size: 0.8em;
+  }
+
+  ul {
+    margin: 0 15px;
+    text-align: left;
+    color: $title-show-color;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  .title-show {
+    color: $title-show-color;
+  }
+
+  .episode {
+    float: right;
+    margin-left: 12px;
+    font-weight: 600;
+    color: $episode-color;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+}

@@ -1,0 +1,9 @@
+<h1 class="title" data-bind="title"></h1>
+<h3 class="subtitle" data-bind="status"></h3>
+<ul>
+  <li data-foreach-show="shows">
+    <span class="show-title" data-bind="show.show"></span>
+    <span class="episode" data-bind="show.number"></span>
+  </li>
+</ul>
+<p class="updated-at" data-bind="updatedAtMessage"></p>

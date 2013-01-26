@@ -1,0 +1,1 @@
+class Dashing.Betaseries extends Dashing.Widget
