@@ -5,6 +5,7 @@ $background-color:  #3b8dd0;
 
 $title-color:       rgba(255, 255, 255, 0.7);
 $title-show-color:  rgba(255, 255, 255, 1);
+$title-episode-color: rgba(255, 255, 255, 0.8);;
 $episode-color:     rgba(255, 255, 255, 0.7);
 
 // ----------------------------------------------------------------------------
@@ -17,10 +18,6 @@ $episode-color:     rgba(255, 255, 255, 0.7);
 
   .title {
     color: $title-color;
-  }
-
-  .subtitle {
-    font-size: 0.8em;
   }
 
   ul {
@@ -38,10 +35,27 @@ $episode-color:     rgba(255, 255, 255, 0.7);
   }
 
   .episode {
+    &:before{
+      content : " - ";
+    }
+    font-size: 0.7em;
+    color: $title-episode-color;
+  }
+
+  .number, .date {
     float: right;
     margin-left: 12px;
     font-weight: 600;
     color: $episode-color;
+  }
+
+  .date {
+    box-sizing: border-box;
+    color: #FFF;
+    font-size: 0.8em;
+    border: 2px #FFF solid;
+    border-radius: 20px;
+    padding:0 .5em; 
   }
 
   .updated-at {
