@@ -6,7 +6,7 @@
 
 ## Preview
 
-![](http://itonio.fr/uploads/dashing-betaseries.png)
+![](preview.png)
 
 ## Usage
 
